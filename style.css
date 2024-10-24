@@ -7,19 +7,32 @@
     --cont-width: 800px
 }
 
+img {
+    border-radius: 16px;
+    max-width: var(--cont-width);
+    align-items: center;
+}
+
+body {
+    background-image: url(assets/bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--bg-color);
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: var(--surface-color);
+    border-radius: 24px;
+    margin: 48px auto;
+}
+
 div {
     max-width: var(--cont-width);
     background-color: var(--surface-color);
     font-family: "Alice", serif;
-}
-
-.container {
-    background-color: var(--surface-color);
-}
-
-main {
-    background-color: var(--bg-color);
-    max-width: var(--cont-width);
 }
 
 h1{
@@ -40,8 +53,3 @@ p {
     line-height: 150%;
 }
 
-img {
-    border-radius: 16px;
-    max-width: var(--cont-width);
-    align-items: center;
-}
