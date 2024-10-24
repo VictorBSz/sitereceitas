@@ -1,0 +1,42 @@
+:root {
+    --bg-color: #573824;
+    --surface-color: #f0e8c2;
+    --text-color-1: #291B1A;
+    --text-color-2: #573A37;
+    --text-color-onbg: #F0E8C2;
+    --cont-width: 800px
+}
+
+div {
+    max-width: var(--cont-width);
+    background-color: var(--surface-color);
+    font-family: "Alice", serif;
+}
+
+.container {
+    background-color: var(--surface-color);
+}
+
+main {
+    background-color: var(--bg-color);
+    max-width: var(--cont-width);
+    margin: auto;
+}
+
+h1{
+    color: var(--text-color-1);
+    font-size: 40px;
+    line-height: 140%;
+}
+
+h2{
+    color: var(--text-color-1);
+    font-size: 24px;
+    line-height: 150%;
+}
+
+p {
+    color: var(--text-color-2);
+    font-size: 16px;
+    line-height: 150%;
+}
