@@ -53,6 +53,10 @@ div {
     font-family: "Alice", serif;
 }
 
+footer {
+    text-align: center;
+}
+
 h1{
     color: var(--text-color-1);
     font-size: 40px;
