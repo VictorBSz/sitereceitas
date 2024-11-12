@@ -53,10 +53,6 @@ div {
     font-family: "Alice", serif;
 }
 
-footer {
-    text-align: center;
-}
-
 h1{
     color: var(--text-color-1);
     font-size: 40px;
@@ -74,6 +70,9 @@ h2{
 ul {
     padding-left: 32px;
 }
+    li {
+        color: var(--text-color-1)
+    }
 
 p {
     color: var(--text-color-2);
@@ -81,3 +80,15 @@ p {
     line-height: 150%;
 }
 
+footer {
+    padding-bottom: 48px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--text-color-onbg);
+}
+
+footer img {
+    vertical-align: middle;
+}
