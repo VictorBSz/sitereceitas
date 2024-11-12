@@ -67,12 +67,15 @@ h2{
     margin-bottom: 4px;
 }
 
+
 ul {
     padding-left: 32px;
 }
-    li {
+
+    ul li {
         color: var(--text-color-1)
     }
+ 
 
 p {
     color: var(--text-color-2);
@@ -84,11 +87,11 @@ footer {
     padding-bottom: 48px;
 }
 
-footer p {
-    text-align: center;
-    color: var(--text-color-onbg);
-}
+    footer p {
+        text-align: center;
+        color: var(--text-color-onbg);
+    }
 
-footer img {
-    vertical-align: middle;
-}
+    footer img {
+        vertical-align: middle;
+    }
